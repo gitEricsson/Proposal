@@ -226,7 +226,7 @@ export default function ConfessionPage() {
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
-            className="relative mt-6"
+            className="relative mt-12"
           >
             <Sparkles
               className="absolute bottom-0 left-0 text-pink-400 w-8 h-8 animate-bounce z-20"
