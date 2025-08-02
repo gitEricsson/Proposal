@@ -170,7 +170,7 @@ export default function ConfessionPage() {
                     className="text-3xl font-bold text-pink-300"
                     style={{ fontFamily: 'Bilbo Swash Caps, cursive' }}
                   >
-                    💕 Will you be my Girlfriend? 💕
+                    💕 May I be your Boyfriend? 💕
                   </div>{' '}
                 </div>
 
@@ -192,7 +192,7 @@ export default function ConfessionPage() {
                     style={{ fontFamily: 'Bilbo, cursive' }}
                   >
                     I agree to be spoiled, cherished, and protected from raw
-                    onions.
+                    onions and roaches.
                   </label>
                 </motion.div>
 
