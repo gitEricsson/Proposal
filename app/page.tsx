@@ -163,7 +163,7 @@ export default function ConfessionPage() {
                     near spend the next couple of years trying.
                   </p>
                   <p className="text-2xl">
-                    So, this might not be your typical K-drama confession,
+                    So, this might not be your typical Bridgerton confession,
                     but...
                   </p>
                   <div
