@@ -88,10 +88,9 @@ export default function CalendarPage() {
 
   const handleContinue = () => {
     if (selectedDate) {
-    const audio = new Audio('/audio/pop.mp3');
-    audio.play().catch(() => {
-    });
-    
+      const audio = new Audio('/audio/pop.mp3');
+      audio.play().catch(() => {});
+
       localStorage.setItem(
         'selectedDate',
         `${months[currentMonth]} ${selectedDate}, ${currentYear}`
@@ -202,7 +201,7 @@ export default function CalendarPage() {
                 className="text-lg text-foreground/80 text-pink-300 mt-2"
                 style={{ fontFamily: 'Bilbo, cursive' }}
               >
-                When should we start this beautiful journey?
+                When should we go on our first Date as a Couple?
               </p>
             </motion.h1>
           </div>
